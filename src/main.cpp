@@ -61,29 +61,31 @@ int main() {
 
     if (radioEstudiante <= 5.0) {
 
-        cout << " .---. " << endl;
-        cout << " / X \\ -> [DIANA MINI / COMPACTA]" << endl;
-        cout << " \\ * / " << endl;
-        cout << " '---' " << endl;
+         cout << "       .---.       " << endl;
+        cout << "      /  X  \\     -> [DIANA MINI / COMPACTA]" << endl;
+        cout << "      \\  *  /     " << endl;
+        cout << "       '---'       " << endl;
+
 
     } else if (radioEstudiante <= 12.0) {
 
-        cout << " .---. " << endl;
-        cout << " / .---. \\ " << endl;
-        cout << " | / O \\ | -> [DIANA ESTÁNDAR DE TIRO]" << endl;
-        cout << " | \\ * / | " << endl;
-        cout << " \\ '---' / " << endl;
-        cout << " '---' " << endl;
+       cout << "       .---.       " << endl;
+        cout << "     / .---. \\     " << endl;
+        cout << "    | /  O  \\ |   -> [DIANA ESTÁNDAR DE TIRO]" << endl;
+        cout << "    | \\  *  / |    " << endl;
+        cout << "     \\ '---' /     " << endl;
+        cout << "       '---'       " << endl;
 
     } else {
 
-        cout << " .---. " << endl;
-        cout << " / .---. \\ " << endl;
-        cout << " | / .-. \\ | " << endl;
-        cout << " | | X | | -> [DIANA GIGANTE DE COBERTURA]" << endl;
-        cout << " | \\ '-' / | " << endl;
-        cout << " \\ '---' / " << endl;
-        cout << " '---' " << endl;
+       cout << "       .---.       " << endl;
+        cout << "     / .---. \\     " << endl;
+        cout << "    | / .-. \\ |    " << endl;
+        cout << "    | |  X  | |   -> [DIANA GIGANTE DE COBERTURA]" << endl;
+        cout << "    | \\ '-' / |    " << endl;
+        cout << "     \\ '---' /     " << endl;
+        cout << "       '---'       " << endl;
+
     }
 
     cout << "=====================================================" << endl;
